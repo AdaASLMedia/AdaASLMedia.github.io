@@ -5,7 +5,7 @@
     --dark-blue: #0C5794;
     --light-blue: #79C1D8;
     --med-cyan: #0AC2AC;
-    --body-bg: var(--med-cyan);
+    --body-bg: var(--dark-purple);
 }
 
 body{
