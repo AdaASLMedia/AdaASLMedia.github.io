@@ -1,0 +1,14 @@
+:root{
+    --hot-pink: #C50A85;
+    --light-purple: #971CB1;
+    --dark-purple: #45296A;
+    --dark-blue: #0C5794;
+    --light-blue: #79C1D8;
+    --med-cyan: #0AC2AC;
+    --body-bg: var(--med-cyan);
+}
+
+body{
+    background: var(--body-bg);
+    color: #fff;
+}
