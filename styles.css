@@ -12,3 +12,8 @@ body{
     background: var(--body-bg);
     color: #fff;
 }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
