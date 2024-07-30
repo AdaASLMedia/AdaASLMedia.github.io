@@ -8,12 +8,54 @@
     --body-bg: var(--dark-purple);
 }
 
-body{
+*{
     background: var(--body-bg);
     color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 nav{
     display: flex;
     justify-content: space-between;
+    padding: 10px 20px;
+}
+
+nav div#hamburger,
+nav div#hamburger::before,
+nav div#hamburger::after{
+    width: 30px;
+    height: 3px;
+    background: #fff;
+}
+
+nav div#hamburger{
+    position: relative;
+    top: 20px;
+    right: 10px;
+}
+
+nav div#hamburger::before,
+nav div#hamburger::after{
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 0;
+}
+
+nav div#hamburger::after{
+    top: 10px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav img{
+    border-radius: 50%;
 }
