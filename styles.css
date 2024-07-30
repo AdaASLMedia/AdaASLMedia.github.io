@@ -48,6 +48,10 @@ nav div#hamburger::after{
     top: 10px;
 }
 
+nav div#hamburger.open::before{
+    transform: rotate(-45deg) translateX(40px);
+}
+
 nav ul{
     list-style-type: none;
 }
